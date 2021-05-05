@@ -21,7 +21,7 @@ public class GameManager implements GameService{
 		String gamerFullName=gamer.getFirstName()+" "+gamer.getLastName();
 		double gameCampainPrice=game.getPrice()-(game.getPrice()*campain.getDiscountPercent()/100);
 		System.out.println(
-				game.getName()+" oyunu "+campain.getDiscountPercent()+" indirimle "+ gameCampainPrice+" TL olarak "+gamerFullName+" oyuncusuna satýldý.");
+				game.getName()+" oyunu %"+campain.getDiscountPercent()+" indirimle "+ gameCampainPrice+" TL olarak "+gamerFullName+" oyuncusuna satýldý.");
 		
 		
 	}
