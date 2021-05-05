@@ -19,7 +19,7 @@ public class Main {
 		Game gameFifa21 = new Game(2,"FIFA 21",600);
 		Game gameNFSHeat =new Game(3,"NFS Heat",200);
 		
-		Gamer gamerYusuf = new Gamer(1,"33736646884","Yusuf","Arslan",LocalDate.of(1997,2,3));
+		Gamer gamerYusuf = new Gamer(1,"TCNO","Yusuf","Arslan",LocalDate.of(1997,2,3));
 		Gamer gamerFake = new Gamer(2,"01234567890","Sahte","Kiþi",LocalDate.of(1997,2,3));
 		
 		Campaign campaign10 = new Campaign(1,"%10 indirim.",10);
